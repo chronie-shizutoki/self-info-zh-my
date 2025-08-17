@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自介 (华语，马来西亚)</title>
+    <link rel="stylesheet" href="components/splash-screen.css">
+    <link rel="stylesheet" href="components/style.css">
+    <link rel="stylesheet" href="components/liquid-glass-block.css">
+    <link rel="stylesheet" href="components/birthday.css">
+</head>
+<body>
+    <!-- Privacy Consent Popup -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <h3 class="privacy-title">隐私政策同意</h3>
+            <p class="privacy-text">本网站使用Google Analytics 4（GA4）进行分析，以改进用户体验和网站性能。</p>
+            <p class="privacy-text">访问时，会收集您的个人数据（如设备信息、IP地址、Cookie、精确位置信息等），并将其分享给Google海外服务器。</p>
+            <p class="privacy-text">为了保护您的隐私，我们会尽力匿名化/假名化您的数据。</p>
+            <div class="privacy-links">
+                <a href="https://storage.googleapis.com/support-kms-prod/KYaKZ5CAhIQ4rjgEFWIy6qKRzRSJjdGjrYFW" target="_blank" class="privacy-link">了解更多（英文）</a>
+                <a href="document.html" class="privacy-link">隐私政策</a>
+            </div>
+            <div class="privacy-buttons">
+                <button id="consent-accept" class="consent-button accept">继续...访问？</button>
+                <button id="consent-reject" class="consent-button reject">拒绝...退出？</button>
+            </div>
+            <p class="privacy-text consent-warning">继续访问可能会将您的数据流向美国。可能受到美国法律管辖。</p>
+        </div>
+    </div>
+<body>
+    <!-- Loading Screen with Girl's Prayer -->
+    <div id="loading-screen" class="splash-screen hidden">
+        <div class="splash-content-girl">
+            <div class="loader"></div>
+            <p class="splash-text">少女祈祷中…</p>
+        </div>
+    </div>
+
+    <canvas id="sakura-canvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: -1;"></canvas>
+    <div class="header" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+        <div class="glass-container-apple">
+            <p class="info-text">Haiyaa，初次见面～ (◕‿◕✿)</p>
+            <p><span class="info-text"> 可以叫我</span><strong class="highlight">静時猫猫糖（しずときねこたん shizutoki nekotan）</strong></p>
+        <p><span class="info-text">或者像星星一样bling bling闪的名字 </span><strong class="highlight">Chronie</strong><span class="info-text"> Chronie 也行咯！✨ </span></p>
+        </div>
+    </div>
+<br>
+    <div class="section">
+        <div class="glass-container-apple">
+        <h3 class="section-title">🎂 诞生小彩蛋</h3>
+        <div class="compact-countdown" id="countdown">
+            <span class="cake-icon">🎂</span>
+            <span>生日倒计时</span>
+            <span>还有</span>
+            <span class="days-count" id="days"></span>
+            <span>天～♡</span>
+        </div>
+        <ul>
+            <li><span class="info-text">在</span><strong class="highlight">Virgo</strong><strong class="highlight ql-size-5">魔法开启的第一天</strong><span class="info-text">来到地球咯～</span></li>
+            <li><span class="info-text">（</span><strong class="highlight">农历七月十一</strong><span class="info-text">的月光是陪我睡觉的摇篮曲哟！🌙） </span></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="glass-container-apple">
+        <h3 class="section-title">🗣️ 语言技能包</h3>
+        <ul>
+            <li><strong style="color: #d5ffbf;">日语、English、简体中文、繁体中文</strong><span class="info-text">统统Boleh～</span></li>
+            <li><span class="info-text">（换语言就像换Maggi面口味一样简单好玩啦！(◠‿◕)） </span></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="glass-container-apple">
+        <h3 class="section-title">🌈 ACGN 能量体</h3>
+        <ul>
+            <li><span class="info-text">确认！</span></li>
+            <li><span class="info-text">Anime、Manga、Game、Novel就是我小宇宙的</span><strong class="highlight">Asas</strong><span class="info-text">～ ★~(◠‿◕✿) </span></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="glass-container-apple">
+        <h3 class="section-title">💖 心灵拼图 (INFJ-T 限定版)</h3>
+        <ul>
+            <li><span class="info-text">  </span><span class="highlight">充电模式： </span><span class="info-text">83%需要自己静静</span><strong style="color: #ffeebf;">（窝在被单里看书最syiok(gerek)啦～(｡>ㅅ<｡)）</strong></li>
+            <li><span class="info-text">  </span><span class="highlight">脑内剧场：</span><span class="info-text"> 74%Gila幻想中</span><strong style="color: #ffeebf;">（异世界大门Terbuka 24 jam！🚪✨） </strong></li>
+            <li><span class="info-text">  </span><span class="highlight">感应雷达： </span><span class="info-text">82%超Kiasu运作</span><strong style="color: #ffeebf;">（emo可能feel到咧 (｡･ω･｡)） </strong></li>
+            <li><span class="info-text">  </span><span class="highlight">行动模式：</span><span class="info-text"> 83%Plan好才做喵</span><strong style="color: #ffeebf;">（列清单是我的kepo✓） </strong></li>
+            <li><span class="info-text">  </span><span class="highlight">心情晴雨表： </span><span class="info-text">82%容易Down☁️➡️🌧️ </span><strong style="color: #ffeebf;">（不过一道彩虹就立刻阴天转Cheerful啦！(๑>ᴗ<๑)） </strong></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="glass-container-apple">
+        <h3 class="section-title">🍀 幸运探测仪</h3>
+        <p><span class="info-text">信号弱到~~~~……（</span><strong class="highlight">捡到四叶草可以Gila Syiok一整天！</strong><span class="info-text">(⁄ ⁄>⁄ω⁄<⁄ ⁄)）</span></p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="glass-container-apple">
+        <h3 class="section-title">🎮 游戏星球</h3>
+        <p><span class="info-text">目前只Main</span><strong class="highlight">《Genshin》</strong><span class="info-text">&</span><strong class="highlight">《Honkai: Star Rail (崩铁)》</strong><span class="info-text">罢了 ～</span></p>
+        <p><span class="info-text">☆ﾐ(o･ω･)ﾉ </span></p>
+        </div>
+        <br>
+        <div class="glass-container-apple" style="text-align: center;">
+        <p><span class="info-text">Jom！多多指教啦～ </span></p>
+        <p><span class="info-text">希望同你做Kawan！一起Share快乐小宇宙啦～ </span></p>
+        <p><span class="info-text">(๑˃ᴗ˂)ﻭ ✧ </span></p>
+        </div>
+    </div>
+
+    <div style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 8px 16px; background-color: rgba(255, 255, 255, 0.3); backdrop-filter: blur(10px); border-radius: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); text-align: center; font-size: 14px; color: #ffcc80; font-weight: 500; z-index: 1000; border: 1px solid rgba(255, 255, 255, 0.2);">
+        ✨ 更新于17 Ogos 2025 ✨
+    </div>
+    <style>
+        @media (max-width: 450px) {
+            div[style*="font-size: 14px"] {
+                font-size: 9px !important;
+                padding: 3px 3px;
+            }
+        }
+    </style>
+    <script src="components/birthday.js"></script>
+    <script src="components/splash-screen.js"></script>
+    <script type="module" src="anime/sakura.js"></script>
+<script type="module" src="analytics/analytics.js"></script>
+</body>
+</html>
